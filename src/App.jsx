@@ -1,11 +1,12 @@
-import { Alert } from './components/Alert'
+import Catalog from "./pages/Catalog";
 
 
-const App = () => {
+export const App = () => {
   return (
-    
-    <Alert/>
+    <div>
+      <h1>Proyecto Integrador</h1>
+      <Catalog/>
+    </div>
   )
 }
-
 export default App
